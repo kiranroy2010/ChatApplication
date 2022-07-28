@@ -7,7 +7,7 @@ from fastapi.templating import Jinja2Templates
 
 app = FastAPI()
 
-# locate templates
+#templates
 templates = Jinja2Templates(directory="template")
 
 
